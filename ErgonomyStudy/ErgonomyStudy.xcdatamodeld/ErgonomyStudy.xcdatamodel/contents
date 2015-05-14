@@ -1,9 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <entity name="Event">
-        <attribute name="timeStamp" optional="YES" attributeType="Date"/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13C64" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Block" representedClassName="Block" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="color" value="0=Landscape; 1=Portrait"/>
+            </userInfo>
+        </attribute>
+        <attribute name="number" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="orientation" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="usage" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="iterations" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Iteration" inverseName="block" inverseEntity="Iteration" syncable="YES"/>
+        <relationship name="run" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Run" inverseName="blocks" inverseEntity="Run" syncable="YES"/>
+    </entity>
+    <entity name="Iteration" representedClassName="Iteration" syncable="YES">
+        <attribute name="disappearTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="displayedonly" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="displaytime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="number" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="targetsize" optional="YES" attributeType="Integer 16" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="targetx" optional="YES" attributeType="Integer 16" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="targety" optional="YES" attributeType="Integer 16" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="block" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Block" inverseName="iterations" inverseEntity="Block" syncable="YES"/>
+        <relationship name="touches" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Touch" inverseName="iteration" inverseEntity="Touch" syncable="YES"/>
+    </entity>
+    <entity name="Run" representedClassName="Run" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="deviceorientation" optional="YES" attributeType="Integer 16" syncable="YES"/>
+        <attribute name="endtime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="handed" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="runid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="starttime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="usage" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="usagefrequency" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="blocks" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Block" inverseName="run" inverseEntity="Block" syncable="YES"/>
+    </entity>
+    <entity name="Touch" representedClassName="Touch" syncable="YES">
+        <attribute name="isTargetTouch" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="touchx" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="touchy" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="iteration" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Iteration" inverseName="touches" inverseEntity="Iteration" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Event" positionX="261" positionY="189" width="128" height="60"/>
+        <element name="Block" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Iteration" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Run" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Touch" positionX="0" positionY="0" width="0" height="0"/>
     </elements>
 </model>

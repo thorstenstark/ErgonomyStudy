@@ -10,4 +10,6 @@
 
 @interface ESBackgroundView : UIView
 
+@property(nonatomic) int xSectors;
+@property(nonatomic) int ySectors;
 @end

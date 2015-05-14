@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ESSettingsViewController : UIViewController
+@interface ESSettingsViewController : UIViewController  <UIAlertViewDelegate>
+@property (weak, nonatomic) IBOutlet UISegmentedControl *longSideTargetsControl;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *shortSideTargetsControl;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *sectionsControl;
+@property (weak, nonatomic) IBOutlet UISwitch *testSwitch;
 
+@property(nonatomic, strong) UIAlertView *alertView;
+
+- (IBAction)segmentedControlChanged:(id)sender;
+- (IBAction)setTestRun:(id)sender;
 @end

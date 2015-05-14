@@ -7,12 +7,16 @@
 //
 
 #import "ESExportViewController.h"
+#import "DataManager.h"
+#import "SimpleButton.h"
 
 @interface ESExportViewController ()
 
 @end
 
-@implementation ESExportViewController
+@implementation ESExportViewController {
+    dispatch_queue_t backgroundQueue;
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,13 +30,29 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    [self.navigationController setNavigationBarHidden:NO];
+    backgroundQueue = dispatch_queue_create("com.beuth-hochschule.momo", NULL);
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)createCSV:(id)sender {
+    _textView.text = @"Erstelle CSV ...";
+    dispatch_async(backgroundQueue, ^(void){
+        DataManager *dataManager = [DataManager sharedManager] ;
+        NSString *csvString = [dataManager exportCSV];
+        dispatch_async(dispatch_get_main_queue(), ^(void) {
+            _textView.text = csvString;
+        });
+
+
+    })  ;
+
 }
 
 @end

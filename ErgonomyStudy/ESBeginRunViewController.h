@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ESBeginRunViewController : UIViewController
+@interface ESBeginRunViewController : UIViewController   <UITextFieldDelegate>
 
+@property (weak, nonatomic) IBOutlet UITextField *userIDLabel;
+@property (weak, nonatomic) IBOutlet UILabel *sequenceLabel;
+@property(nonatomic, strong) UIAlertView *alertView;
 @end

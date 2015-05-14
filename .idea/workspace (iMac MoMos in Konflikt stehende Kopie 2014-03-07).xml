@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3aeed9ec-4c21-46b6-8030-c20a46436b6b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App Icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App Icon@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Landscape.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ErgonomyStudy/Images.xcassets/LaunchImage.launchimage/Landscape.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Landscape@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ErgonomyStudy/Images.xcassets/LaunchImage.launchimage/Landscape@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ErgonomyStudy/btn_background_highlighted.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ErgonomyStudy/Block.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ErgonomyStudy/Block.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ErgonomyStudy/ESBackgroundView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ErgonomyStudy/ESBackgroundView.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ErgonomyStudy/ESRunViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ErgonomyStudy/ESRunViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ErgonomyStudy/ESSettingsViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ErgonomyStudy/ESSettingsViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ErgonomyStudy/ESTouchTargetView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ErgonomyStudy/ESTouchTargetView.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ErgonomyStudy/ESTouchTestViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ErgonomyStudy/ESTouchTestViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ErgonomyStudy/Iteration.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ErgonomyStudy/Iteration.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ErgonomyStudy/Run.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ErgonomyStudy/Run.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ErgonomyStudy/SimpleButton.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ErgonomyStudy/SimpleButton.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Touch.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Touch.m" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ErgonomyStudy/ESMasterViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ErgonomyStudy/ESMasterViewController.m" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ErgonomyStudy/ErgonomyStudy.xcdatamodeld/.xccurrentversion" afterPath="$PROJECT_DIR$/ErgonomyStudy/ErgonomyStudy.xcdatamodeld/.xccurrentversion" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ErgonomyStudy/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="$PROJECT_DIR$/ErgonomyStudy/Images.xcassets/AppIcon.appiconset/Contents.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ErgonomyStudy/Images.xcassets/LaunchImage.launchimage/Contents.json" afterPath="$PROJECT_DIR$/ErgonomyStudy/Images.xcassets/LaunchImage.launchimage/Contents.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ErgonomyStudy/ESAppDelegate.h" afterPath="$PROJECT_DIR$/ErgonomyStudy/ESAppDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ErgonomyStudy/ESAppDelegate.m" afterPath="$PROJECT_DIR$/ErgonomyStudy/ESAppDelegate.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ErgonomyStudy/ESDetailViewController.h" afterPath="$PROJECT_DIR$/ErgonomyStudy/ESDetailViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ErgonomyStudy/ESDetailViewController.m" afterPath="$PROJECT_DIR$/ErgonomyStudy/ESDetailViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ErgonomyStudy/ErgonomyStudy-Info.plist" afterPath="$PROJECT_DIR$/ErgonomyStudy/ErgonomyStudy-Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ErgonomyStudy/ErgonomyStudy-Prefix.pch" afterPath="$PROJECT_DIR$/ErgonomyStudy/ErgonomyStudy-Prefix.pch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ErgonomyStudyTests/ErgonomyStudyTests-Info.plist" afterPath="$PROJECT_DIR$/ErgonomyStudyTests/ErgonomyStudyTests-Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ErgonomyStudyTests/ErgonomyStudyTests.m" afterPath="$PROJECT_DIR$/ErgonomyStudyTests/ErgonomyStudyTests.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ErgonomyStudy/en.lproj/InfoPlist.strings" afterPath="$PROJECT_DIR$/ErgonomyStudy/en.lproj/InfoPlist.strings" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ErgonomyStudyTests/en.lproj/InfoPlist.strings" afterPath="$PROJECT_DIR$/ErgonomyStudyTests/en.lproj/InfoPlist.strings" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ErgonomyStudy/Base.lproj/Main.storyboard" afterPath="$PROJECT_DIR$/ErgonomyStudy/Base.lproj/Main.storyboard" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ErgonomyStudy.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="$PROJECT_DIR$/ErgonomyStudy.xcodeproj/project.xcworkspace/contents.xcworkspacedata" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ErgonomyStudy/ErgonomyStudy.xcdatamodeld/ErgonomyStudy.xcdatamodel/contents" afterPath="$PROJECT_DIR$/ErgonomyStudy/ErgonomyStudy.xcdatamodeld/ErgonomyStudy.xcdatamodel/contents" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ErgonomyStudy/main.m" afterPath="$PROJECT_DIR$/ErgonomyStudy/main.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ErgonomyStudy.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/ErgonomyStudy.xcodeproj/project.pbxproj" />
+    </list>
+    <ignored path="ErgonomyStudy.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_iPad_7.0" />
+  <component name="FavoritesManager">
+    <favorites_list name="ErgonomyStudy" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="ESTouchTargetView.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ErgonomyStudy/ESTouchTargetView.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="38" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="560">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ESTouchTargetView.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ErgonomyStudy/ESTouchTargetView.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="80" selection-start="1248" selection-end="1248" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1456">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ESAppDelegate.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ErgonomyStudy/ESAppDelegate.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="23" selection-start="2357" selection-end="2357" vertical-scroll-proportion="0.0" vertical-offset="848" max-vertical-offset="2528">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ESAppDelegate.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ErgonomyStudy/ESAppDelegate.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="41" selection-start="277" selection-end="777" vertical-scroll-proportion="0.0" vertical-offset="384" max-vertical-offset="528">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ESTouchTestViewController.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ErgonomyStudy/ESTouchTestViewController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="54" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0" vertical-offset="320" max-vertical-offset="448">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ESTouchTestViewController.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ErgonomyStudy/ESTouchTestViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="25" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="2560" max-vertical-offset="5328">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ESRunViewController.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ErgonomyStudy/ESRunViewController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="62" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="656">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ESRunViewController.m" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ErgonomyStudy/ESRunViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="77" column="51" selection-start="3500" selection-end="3500" vertical-scroll-proportion="0.2167043" vertical-offset="944" max-vertical-offset="3712">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataManager.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ErgonomyStudy/DataManager.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="0" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="336" max-vertical-offset="800">
+              <folding>
+                <marker date="1394102685000" expanded="true" signature="242:944" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataManager.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ErgonomyStudy/DataManager.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="211" column="17" selection-start="7728" selection-end="7728" vertical-scroll-proportion="0.0" vertical-offset="3376" max-vertical-offset="4176">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/ErgonomyStudy/ESAppDelegate.h" />
+        <option value="$PROJECT_DIR$/ErgonomyStudy/ESSettingsViewController.m" />
+        <option value="$PROJECT_DIR$/ErgonomyStudy/ESBackgroundView.m" />
+        <option value="$PROJECT_DIR$/ErgonomyStudy/ESAppDelegate.m" />
+        <option value="$PROJECT_DIR$/ErgonomyStudy/ESTouchTargetView.h" />
+        <option value="$PROJECT_DIR$/ErgonomyStudy/DataManager.h" />
+        <option value="$PROJECT_DIR$/ErgonomyStudy/ESRunViewController.h" />
+        <option value="$PROJECT_DIR$/ErgonomyStudy/ESTouchTestViewController.h" />
+        <option value="$PROJECT_DIR$/ErgonomyStudy/DataManager.m" />
+        <option value="$PROJECT_DIR$/ErgonomyStudy/ESTouchTestViewController.m" />
+        <option value="$PROJECT_DIR$/ErgonomyStudy/ESTouchTargetView.m" />
+        <option value="$PROJECT_DIR$/ErgonomyStudy/ESRunViewController.m" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="2560" />
+    <option name="height" value="1440" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Cidr.FilesView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ErgonomyStudy" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ErgonomyStudy" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Products" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ErgonomyStudy" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ErgonomyStudy" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ErgonomyStudy" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ErgonomyStudy" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ViewControllers" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LayoutStudie/LayoutStudie.xcodeproj" />
+    <property name="FullScreen" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.ErgonomyStudy">
+    <configuration default="false" name="ErgonomyStudy" type="AppleRunConfiguration" factoryName="Application" temporary="true" SCHEME_NAME="ErgonomyStudy" PROJECT_NAME="ErgonomyStudy" TARGET_NAME="ErgonomyStudy" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="ErgonomyStudy" RUN_TARGET_NAME="ErgonomyStudy" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <RunnerSettings RunnerId="AppRunner" />
+      <ConfigurationWrapper RunnerId="AppRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PROJECT_NAME="ErgonomyStudy" TARGET_NAME="ErgonomyStudy" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="ErgonomyStudy" RUN_TARGET_NAME="ErgonomyStudy" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="OCUnitRunConfiguration" factoryName="XCTest/Kiwi" PROJECT_NAME="ErgonomyStudy" TARGET_NAME="ErgonomyStudyTests" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="OCGoogleTestRunConfigurationType" factoryName="Google Test" PROJECT_NAME="ErgonomyStudy" TARGET_NAME="ErgonomyStudy" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.ErgonomyStudy" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.ErgonomyStudy" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3aeed9ec-4c21-46b6-8030-c20a46436b6b" name="Default" comment="" />
+      <created>1392838914761</created>
+      <updated>1392838914761</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19117068" sideWeight="0.4270073" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19117068" sideWeight="0.5729927" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991228" sideWeight="0.8088293" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32748538" sideWeight="0.8088293" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32748538" sideWeight="0.8088293" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ErgonomyStudy/ESRunViewController.m</url>
+          <line>221</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="25" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ErgonomyStudy/ESTouchTargetView.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="6" selection-start="1097" selection-end="1097" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="912">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ErgonomyStudy/ESTouchTestViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="27" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="1168">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ErgonomyStudy/ESTouchTestViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ErgonomyStudy/ESBackgroundView.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="47" selection-start="1308" selection-end="1308" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ErgonomyStudy/ESAppDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="23" selection-start="2357" selection-end="2357" vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="2370">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ErgonomyStudy/ESSettingsViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="69" selection-start="2350" selection-end="2350" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1392">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ErgonomyStudy/main.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="241" selection-end="241" vertical-scroll-proportion="0.26196474" vertical-offset="0" max-vertical-offset="794" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ErgonomyStudy/ESAppDelegate.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="41" selection-start="277" selection-end="777" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ErgonomyStudy/DataManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="688">
+          <folding>
+            <marker date="1394102685000" expanded="true" signature="242:944" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ErgonomyStudy/ESTouchTestViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="54" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0" vertical-offset="320" max-vertical-offset="448">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ErgonomyStudy/DataManager.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="211" column="17" selection-start="7728" selection-end="7728" vertical-scroll-proportion="0.0" vertical-offset="3376" max-vertical-offset="4176">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ErgonomyStudy/ESRunViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="62" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="656">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ErgonomyStudy/ESTouchTargetView.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="38" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="496">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ErgonomyStudy/ESTouchTestViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="25" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="5328">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ErgonomyStudy/ESTouchTargetView.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="80" selection-start="1248" selection-end="1248" vertical-scroll-proportion="0.0" vertical-offset="116" max-vertical-offset="1456">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ErgonomyStudy/ESRunViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="51" selection-start="3500" selection-end="3500" vertical-scroll-proportion="0.2167043" vertical-offset="944" max-vertical-offset="3712">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

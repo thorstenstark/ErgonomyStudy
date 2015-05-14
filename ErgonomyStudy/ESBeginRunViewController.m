@@ -7,6 +7,7 @@
 //
 
 #import "ESBeginRunViewController.h"
+#import "DataManager.h"
 
 @interface ESBeginRunViewController ()
 
@@ -27,12 +28,35 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    _sequenceLabel.text = [[DataManager sharedManager] calculateCurrentSequence];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender {
+    if (_userIDLabel.text.length >0){
+        return YES;
+
+    }
+    self.alertView = [[UIAlertView alloc] initWithTitle:@"Fehlende Eingabe" message:@"Bitte geben Sie Ihre Probandennummer ein." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [self.alertView show];
+    return NO;
+}
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    [[DataManager sharedManager] createNewRunWithUserID:_userIDLabel.text];
+
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+
+    [textField resignFirstResponder];
+
+
+    return YES;
 }
 
 @end

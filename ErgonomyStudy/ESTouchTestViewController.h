@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ESTouchTestViewController : UIViewController
+@class ESRunViewController;
+@class DataManager;
 
+@interface ESTouchTestViewController : UIViewController <UIAlertViewDelegate, UIGestureRecognizerDelegate>
+
+@property(nonatomic, strong) NSMutableArray *buttonGrid;
+@property(nonatomic, strong) NSTimer *timer;
+@property(nonatomic, strong) NSTimer *breaktimer;
+@property(nonatomic, strong) UIColor * targetColor;
+@property(nonatomic, strong) ESRunViewController *delegate;
+@property(nonatomic, strong) DataManager *dataManager;
 @end

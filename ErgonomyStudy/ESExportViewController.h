@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ESExportViewController : UIViewController
+@class SimpleButton;
 
+@interface ESExportViewController : UIViewController
+- (IBAction)createCSV:(id)sender;
+
+@property (weak, nonatomic) IBOutlet SimpleButton *exportBtn;
+@property (weak, nonatomic) IBOutlet UITextView *textView;
 @end

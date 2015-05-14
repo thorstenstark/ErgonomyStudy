@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DataManager.h"
 
 @interface CoreDataCSVExporter : NSObject
 
+- (NSString *)exportManagedObject:(NSManagedObject *)managedObject;
+
+- (NSString *)buildCSVData;
+
+- (NSString *)getCSVString:(NSString *)csv forRun:(Run *)run;
 @end

@@ -16,6 +16,11 @@
 @property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
 @property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 
+@property CGFloat numberHorizontalTargets;
+@property CGFloat numberVertivalTargets;
+@property CGFloat numberHorizontalSections;
+@property CGFloat numberVerticalSections;
+
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
 
